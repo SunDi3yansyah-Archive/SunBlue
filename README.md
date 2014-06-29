@@ -17,7 +17,7 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 [+] Tag H1 H2 H3 etc<br>
 [+] Custom page index<br>
 </blockquote>
-<h3>Setup <strong>(Silakan simak untuk cara memasang tema ini)</strong></h3>
+<h3>Setup</h3>
 <ul class="task-list">
 	<li>Import file <strong>SunBlue-version-1-theme.xml</strong> ke MyBB anda a.k.a ACP (Admin Control Panel), tidak lupa untuk memberi nama pada <strong>Advanced Options</strong> check untuk <strong>Ignore Version Compatibility</strong>.</li>
 	<li>Jika ingin memasangnya langsung silakan <strong>set default</strong> themenya.</li>
@@ -32,3 +32,13 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License</a>
 <h2>Note:</h2>
 <b>Akan di update semau gue kapan dah, kalau ada bug bilang aja yak di <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues">issues</a>... :*</b>
+
+<h3>Thanks to:</h3>
+<ul class="task-list">
+	<li>Ambrizal</li>
+	<li><a href="https://github.com/alfa6661">Alfa Adhitya</a></li>
+	<li>Yories</li>
+	<li>Ilham</li>
+	<li>Beksi</li>
+	<li>Dhie</li>
+</ul>
