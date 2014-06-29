@@ -34,7 +34,6 @@ $thread['subject'] = htmlspecialchars_uni($parser->parse_badwords($thread['subje
        eval("\$hotthread .= \"".$templates->get("custom_stats_thread")."\";");
        $altbg = alt_trow();
     }
-// Thread Terbaru dari Forum Semua
 
     $query = $db->query("SELECT * FROM ".TABLE_PREFIX."threads ORDER BY `tid` DESC LIMIT $allimit");
     
@@ -43,7 +42,7 @@ $thread['subject'] = htmlspecialchars_uni($parser->parse_badwords($thread['subje
     {
         $listall .= "<li><a href=\"showthread.php?tid={$fetch['tid']}\" target=\"_parent\">".htmlspecialchars_uni($fetch['subject'])."</a></li>";
     }
-// Thread Terbaru dari semua forum
+
     $altbg = alt_trow();
     $limit = 5;
     $query = $db->query("
@@ -67,9 +66,8 @@ $thread['subject'] = htmlspecialchars_uni($parser->parse_badwords($thread['subje
         $thread['lastpostlink'] = get_thread_link($thread['tid'], 0, "lastpost");
         eval("\$latest .= \"".$templates->get("latestpost")."\";");
         $altbg = alt_trow();
-     } 
-	 
-// Most replied threads
+     }
+
 $most_replied = $cache->read("most_replied_threads");
 if(!$most_replied)
 {
@@ -98,7 +96,7 @@ if(!empty($most_replied))
         if($maxrows > 7) break;
     }
 }
-// End most replied threads
+
 eval("\$html = \"".$templates->get("beranda")."\";"); 
 output_page($html);
 ?>
