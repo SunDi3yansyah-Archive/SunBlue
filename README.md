@@ -31,14 +31,14 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 <h2>License:</h2>
 <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License</a>
 <h2>Note:</h2>
-<b>Akan di update semau gue kapan dah, kalau ada bug bilang aja yak di <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues">issues</a>... :*</b>
+<b>Akan di update semau gue kapan dah, kalau ada bug bilang aja yak di <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues">issues</a> ... :*</b>
 
 <h3>Thanks to:</h3>
 <ul class="task-list">
-	<li>Ambrizal</li>
+	<li><a href="https://github.com/ambrizals">ambrizals</a></li>
 	<li><a href="https://github.com/alfa6661">Alfa Adhitya</a></li>
-	<li>Yories</li>
-	<li>Ilham</li>
 	<li>Bekti</li>
 	<li>Dhie</li>
+	<li>Ilham</li>
+	<li>Yories</li>
 </ul>
