@@ -25,20 +25,20 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 	<li>Untuk masalah logo bisa anda tumpuk file nya di <strong>./images/sunblue/</strong> (harus bernama logo dan ektensinya .png).</li>
 	<li>Sedangkan untuk file index.php, masuk ke cPanel atau server anda kemudian masuk ke ROOT-MYBB dan rename file index.php (default) jadi forums.php atau forum.php sesuka anda.</li>
 	<li>Upload file index.php (SunBlue) yang sudah saya sediakan.</li>
-	<li>Kalau ada bug silakan buat <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues">issues</a> baru.</li>
+	<li>Kalau ada bug silakan buat <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues" target="_blank">issues</a> baru.</li>
 	<li>Silakan di kembangkan sendiri.</li>
 </ul>
 <h2>License</h2>
-<a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License</a>
+<a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU Affero General Public License</a>
 <h2>Note:</h2>
-<b>Akan di update semau gue kapan dah, kalau ada bug bilang aja yak di <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues">issues</a> ... :*</b>
+<b>Akan di update semau gue kapan dah, kalau ada bug bilang aja yak di <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues" target="_blank">issues</a> ... :*</b>
 
 <h3>Thanks to</h3>
 <ul class="task-list">
-	<li><a href="https://github.com/ambrizals">ambrizals</a></li>
-	<li><a href="https://github.com/alfa6661">Alfa Adhitya</a></li>
+	<li><a href="https://github.com/ambrizals" target="_blank">ambrizals</a></li>
+	<li><a href="https://github.com/alfa6661" target="_blank">Alfa Adhitya</a></li>
 	<li>Bekti</li>
 	<li>Dhie</li>
+	<li><a href="https://github.com/Terzier" target="_blank">Terzier</a></li>
 	<li>Ilham</li>
-	<li><a href="https://github.com/mybbid">Yories alias MyBB-ID</a></li>
 </ul>
