@@ -39,6 +39,6 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 	<li><a href="https://github.com/alfa6661">Alfa Adhitya</a></li>
 	<li>Yories</li>
 	<li>Ilham</li>
-	<li>Beksi</li>
+	<li>Bekti</li>
 	<li>Dhie</li>
 </ul>
