@@ -1,6 +1,6 @@
 <h1>SunBlue Version 1</h1>
 SunBlue? Yah... saya kasih nama theme itu SunBlue, :hehe: *dari dulu jua namanya itu* :haha: Ini adalah Tema untuk web basis forum yang tak asing lagi kita kenal dengan power-power pulll yaitu `MYBB`...
-Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus itu terserah loe yang mau make, oke... mau di pake monggo mau gak di pake juga monggo...
+Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus itu terserah loe yang mau make, oke... mau di pake monggo mau gak di pake juga monggo... Etttzzz... apa sih kelebihan SunBlue Versi 1? Ya di set aja :P, Like KASKUS :haha: ... 
 <h2>Deskripsi Theme</h2>
 <blockquote>
 [+] Nama: SunBlue Versi 1<br>
@@ -40,5 +40,5 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 	<li>Bekti</li>
 	<li>Dhie</li>
 	<li>Ilham</li>
-	<li>Yories</li>
+	<li><a href="https://github.com/mybbid">Yories alias MyBB-ID</a></li>
 </ul>
