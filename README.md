@@ -5,7 +5,7 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 <blockquote>
 [+] Nama: SunBlue Versi 1<br>
 [+] Compatibility: MyBB 1.6.13<br>
-[+] Lisensi: Ada<br>
+[+] Lisensi: GNU Affero General Public License<br>
 [+] Warna Utama: #1484CE; #FFFFFF; #CCCCCC;<br>
 </blockquote>
 <h2>Fitur:</h2>
@@ -17,7 +17,7 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 [+] Tag H1 H2 H3 etc<br>
 [+] Custom page index<br>
 </blockquote>
-<h3>Silakan simak untuk cara memasang tema ini.</h3>
+<h3>Setup <strong>(Silakan simak untuk cara memasang tema ini)</strong></h3>
 <ul class="task-list">
 	<li>Import file <strong>SunBlue-version-1-theme.xml</strong> ke MyBB anda a.k.a ACP (Admin Control Panel), tidak lupa untuk memberi nama pada <strong>Advanced Options</strong> check untuk <strong>Ignore Version Compatibility</strong>.</li>
 	<li>Jika ingin memasangnya langsung silakan <strong>set default</strong> themenya.</li>
