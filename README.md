@@ -1,7 +1,7 @@
 <h1>SunBlue Version 1</h1>
 SunBlue? Yah... saya kasih nama theme itu SunBlue, :hehe: *dari dulu jua namanya itu* :haha: Ini adalah Tema untuk web basis forum yang tak asing lagi kita kenal dengan power-power pulll yaitu `MYBB`...
 Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus itu terserah loe yang mau make, oke... mau di pake monggo mau gak di pake juga monggo...
-<h2>Deskripsi Theme:</h2>
+<h2>Deskripsi Theme</h2>
 <blockquote>
 [+] Nama: SunBlue Versi 1<br>
 [+] Compatibility: MyBB 1.6.13<br>
@@ -28,12 +28,12 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 	<li>Kalau ada bug silakan buat <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues">issues</a> baru.</li>
 	<li>Silakan di kembangkan sendiri.</li>
 </ul>
-<h2>License:</h2>
+<h2>License</h2>
 <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License</a>
 <h2>Note:</h2>
 <b>Akan di update semau gue kapan dah, kalau ada bug bilang aja yak di <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues">issues</a> ... :*</b>
 
-<h3>Thanks to:</h3>
+<h3>Thanks to</h3>
 <ul class="task-list">
 	<li><a href="https://github.com/ambrizals">ambrizals</a></li>
 	<li><a href="https://github.com/alfa6661">Alfa Adhitya</a></li>
