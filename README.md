@@ -8,7 +8,7 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 [+] Lisensi: GNU Affero General Public License<br>
 [+] Warna Utama: #1484CE; #FFFFFF; #CCCCCC;<br>
 </blockquote>
-<h2>Fitur:</h2>
+<h2>Fitur</h2>
 <blockquote>
 [+] Tag keywords<br>
 [+] JavaScript + jQuery<br>
@@ -17,7 +17,7 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 [+] Tag H1 H2 H3 etc<br>
 [+] Custom page index<br>
 </blockquote>
-<h3>Setup</h3>
+<h2>Setup</h2>
 <ul class="task-list">
 	<li>Import file <strong>SunBlue-version-1-theme.xml</strong> ke MyBB anda a.k.a ACP (Admin Control Panel), tidak lupa untuk memberi nama pada <strong>Advanced Options</strong> check untuk <strong>Ignore Version Compatibility</strong>.</li>
 	<li>Jika ingin memasangnya langsung silakan <strong>set default</strong> themenya.</li>
