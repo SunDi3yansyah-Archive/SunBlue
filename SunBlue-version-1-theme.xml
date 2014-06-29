@@ -607,10 +607,6 @@ select {
 	padding-left: 22px;
 }
 /* Additional CSS (Master) */
-ol,ul{
-	list-style:none;
-&nbsp;}
-
 img {
 	border: none;
 }
@@ -4066,7 +4062,7 @@ float: right;
 <title>{$mybb->settings['bbname']} - {$lang->search_results}</title>
 {$headerinclude}
 </head>
-<body id="search">
+<body id="forums">
 {$header}
 <table width="100%" align="center" border="0">
 	<tr>
