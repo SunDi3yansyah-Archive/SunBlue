@@ -17,8 +17,8 @@ $allimit = 15;
 $allimit = 5;
    $query = $db->query("
 SELECT t.*, u.username
-FROM threads t
-LEFT JOIN users u ON ( u.uid = t.uid )
+FROM ".TABLE_PREFIX."threads t
+LEFT JOIN ".TABLE_PREFIX."users u ON ( u.uid = t.uid )
 WHERE t.visible = '1'
 AND t.closed NOT LIKE 'moved|%'
 ORDER BY t.views DESC
