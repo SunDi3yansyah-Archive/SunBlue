@@ -26,14 +26,14 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 > [+] Custom page index
 
 ## Setup
-	Import file **SunBlue-version-1-theme.xml** ke MyBB anda a.k.a ACP (Admin Control Panel), tidak lupa untuk memberi nama pada **Advanced Options** check untuk **Ignore Version Compatibility**.
-	Jika ingin memasangnya langsung silakan **set default** themenya.
-	Disini ada beberapa yang harus anda persiapkan, yaitu beberapa ICON yang di ingin untuk di muncul pada halaman sekitar forum. Anda bisa meletakkan icon-icon tersebut di folder **./images/sunblue/icon/** sedangkan untuk urutan nama icon tersebut harus sesuai dengan urutan Forum ID **$fid** yang ada, misal anda membuat forum yang bernama **Musik** dan anda harus tau ada di urutan keberapa forum "Musik" tersebut maka yang harus anda lakukan adalah membuat icon atau mencarinya di sosial penyedia ICON dengan memberi nama **forum{fid}** misalnya: **forum20.gif** (ektensi harus .gif) jika anda ingin ektensi yang lain maka anda harus merubah ektensi di template yang tadinya .gif jadi .png misalnya jika anda menggunakan ektensi .png, dengan catatan semua file images harus sama, misalnya jika ingin file ektensi .png maka semua harus berektensi .png.
-	Untuk masalah logo bisa anda tumpuk file nya di **./images/sunblue/** (harus bernama logo dan ektensinya .png).
-	Sedangkan untuk file index.php, masuk ke cPanel atau server anda kemudian masuk ke ROOT-MYBB dan rename file index.php (default) jadi forums.php atau forum.php sesuka anda.
-	Upload file index.php (SunBlue) yang sudah saya sediakan.
-	Kalau ada bug silakan buat <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues" target="_blank">issues</a> baru.
-	Silakan di kembangkan sendiri.
+* Import file **SunBlue-version-1-theme.xml** ke MyBB anda a.k.a ACP (Admin Control Panel), tidak lupa untuk memberi nama pada **Advanced Options** check untuk **Ignore Version Compatibility**.
+* Jika ingin memasangnya langsung silakan **set default** themenya.
+* Disini ada beberapa yang harus anda persiapkan, yaitu beberapa ICON yang di ingin untuk di muncul pada halaman sekitar forum. Anda bisa meletakkan icon-icon tersebut di folder **./images/sunblue/icon/** sedangkan untuk urutan nama icon tersebut harus sesuai dengan urutan Forum ID **$fid** yang ada, misal anda membuat forum yang bernama **Musik** dan anda harus tau ada di urutan keberapa forum "Musik" tersebut maka yang harus anda lakukan adalah membuat icon atau mencarinya di sosial penyedia ICON dengan memberi nama **forum{fid}** misalnya: **forum20.gif** (ektensi harus .gif) jika anda ingin ektensi yang lain maka anda harus merubah ektensi di template yang tadinya .gif jadi .png misalnya jika anda menggunakan ektensi .png, dengan catatan semua file images harus sama, misalnya jika ingin file ektensi .png maka semua harus berektensi .png.
+* Untuk masalah logo bisa anda tumpuk file nya di **./images/sunblue/** (harus bernama logo dan ektensinya .png).
+* Sedangkan untuk file index.php, masuk ke cPanel atau server anda kemudian masuk ke ROOT-MYBB dan rename file index.php (default) jadi forums.php atau forum.php sesuka anda.
+* Upload file index.php (SunBlue) yang sudah saya sediakan.
+* Kalau ada bug silakan buat <a href="https://github.com/SunDi3yansyah/SunBlue-version-1/issues" target="_blank">issues</a> baru.
+* Silakan di kembangkan sendiri.
 
 ## License
 [GNU Affero General Public License](http://www.gnu.org/licenses/agpl-3.0.html)
@@ -43,9 +43,9 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 
 ## Thanks to
 
-	* [ambrizals](https://github.com/ambrizals)
-	* [Alfa Adhitya](https://github.com/alfa6661)
-	* Bekti
-	* Dhie
-	* [Terzier](https://github.com/Terzier)
-	* Ilham
+* [ambrizals](https://github.com/ambrizals)
+* [Alfa Adhitya](https://github.com/alfa6661)
+* Bekti
+* Dhie
+* [Terzier](https://github.com/Terzier)
+* Ilham
