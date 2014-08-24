@@ -13,9 +13,8 @@ $lang->load("stats");
 $parser = new postParser;
 $tlimit = 5;
 $allimit = 15;
-
 $allimit = 5;
-   $query = $db->query("
+$query = $db->query("
 SELECT t.*, u.username
 FROM ".TABLE_PREFIX."threads t
 LEFT JOIN ".TABLE_PREFIX."users u ON ( u.uid = t.uid )
@@ -23,51 +22,43 @@ WHERE t.visible = '1'
 AND t.closed NOT LIKE 'moved|%'
 ORDER BY t.views DESC
 LIMIT $allimit");
-   
-   while($thread = $db->fetch_array($query))
-   {
-$postdate = my_date($mybb->settings['dateformat'], $thread['dateline']);
-$numberbit = $thread['views'];
-$numbertype = 'Kali';
-$thread['subject'] = htmlspecialchars_uni($parser->parse_badwords($thread['subject']));
-       $thread['threadlink'] = get_thread_link($thread['tid']);
-       eval("\$hotthread .= \"".$templates->get("custom_stats_thread")."\";");
-       $altbg = alt_trow();
+    while($thread = $db->fetch_array($query))
+    {
+        $postdate = my_date($mybb->settings['dateformat'], $thread['dateline']);
+        $numberbit = $thread['views'];
+        $numbertype = 'Kali';
+        $thread['subject'] = htmlspecialchars_uni($parser->parse_badwords($thread['subject']));
+        $thread['threadlink'] = get_thread_link($thread['tid']);
+        eval("\$hotthread .= \"".$templates->get("custom_stats_thread")."\";");
+        $altbg = alt_trow();
     }
-
     $query = $db->query("SELECT * FROM ".TABLE_PREFIX."threads ORDER BY `tid` DESC LIMIT $allimit");
-    
     $listall = '';
     while($fetch = $db->fetch_array($query))
     {
         $listall .= "<li><a href=\"showthread.php?tid={$fetch['tid']}\" target=\"_parent\">".htmlspecialchars_uni($fetch['subject'])."</a></li>";
     }
-
     $altbg = alt_trow();
     $limit = 5;
     $query = $db->query("
     SELECT * FROM ".TABLE_PREFIX."threads ORDER BY `tid` 
     DESC LIMIT $limit");
-    
     while($thread = $db->fetch_array($query))
     {
         $lastpostdate = my_date($mybb->settings['dateformat'], $thread['lastpost']);
         $lastposterlink = $thread['lastposter'];
-        
         $threadprefix = '';
         if($thread['prefix'] != 0)
         {
             $threadprefix = build_prefixes($thread['prefix']);
             $thread['threadprefix'] = $threadprefix['displaystyle'].'&nbsp;';
         }
-
-            $thread['subject'] = htmlspecialchars_uni($parser->parse_badwords($thread['subject']));
+        $thread['subject'] = htmlspecialchars_uni($parser->parse_badwords($thread['subject']));
         $thread['threadlink'] = get_thread_link($thread['tid'], 0, "lastpost");
         $thread['lastpostlink'] = get_thread_link($thread['tid'], 0, "lastpost");
         eval("\$latest .= \"".$templates->get("latestpost")."\";");
         $altbg = alt_trow();
-     }
-
+    }
 $most_replied = $cache->read("most_replied_threads");
 if(!$most_replied)
 {
@@ -96,7 +87,6 @@ if(!empty($most_replied))
         if($maxrows > 7) break;
     }
 }
-
 eval("\$html = \"".$templates->get("beranda")."\";"); 
 output_page($html);
 ?>
