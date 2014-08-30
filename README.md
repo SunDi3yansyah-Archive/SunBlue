@@ -43,9 +43,9 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 
 ## Thanks to
 
-* [ambrizals](https://github.com/ambrizals)
-* [Alfa Adhitya](https://github.com/alfa6661)
+* @ambrizals
+* @alfa6661
 * Bekti
 * Dhie
-* [Terzier](https://github.com/Terzier)
+* @Terzier
 * Ilham
