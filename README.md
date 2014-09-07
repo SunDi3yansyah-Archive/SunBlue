@@ -49,3 +49,6 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 * Dhie
 * @Terzier
 * Ilham
+
+
+@ambrizals
