@@ -49,3 +49,4 @@ Sebelumnya terimakasih jika anda sudah menggunakan tema ini... Jelek atau Bagus 
 * [fachrils](https://github.com/fachrils)
 * Bekti Puja Pratama
 * Dhie Cihuy
+.
