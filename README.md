@@ -1,10 +1,10 @@
-# SunBlue Version 1
+# SunBlue
 SunBlue? Yah... saya kasih nama theme ini SunBlue, Ini adalah Tema untuk web basis forum yang tak asing lagi kita kenal dengan power-power pulll yaitu [MyBB](http://mybb.com)
-Apa sih kelebihan SunBlue Versi 1?
+Apa sih kelebihan SunBlue versi 1?
 Saya sarankan langsung dicoba saja dan dinilai sendiri.
 
 ## Deskripsi Theme
-- Nama: SunBlue Versi 1
+- Nama: SunBlue versi 1
 - Compatibility: MyBB 1.6.13
 - Lisensi: GNU Affero General Public License
 - Warna Utama: ```#1484CE;``` ```#FFFFFF;``` ```#CCCCCC;```
@@ -23,8 +23,8 @@ Saya sarankan langsung dicoba saja dan dinilai sendiri.
 - Disini ada beberapa yang harus anda persiapkan, yaitu beberapa ICON yang di ingin untuk di muncul pada halaman sekitar forum. Anda bisa meletakkan icon-icon tersebut di folder **./images/sunblue/icon/** sedangkan untuk urutan nama icon tersebut harus sesuai dengan urutan Forum ID **$fid** yang ada, misal anda membuat forum yang bernama **Musik** dan anda harus tau ada di urutan keberapa forum "Musik" tersebut maka yang harus anda lakukan adalah membuat icon atau mencarinya di sosial penyedia ICON dengan memberi nama **forum{fid}** misalnya: **forum20.gif** (ektensi harus .gif) jika anda ingin ektensi yang lain maka anda harus merubah ektensi di template yang tadinya .gif jadi .png misalnya jika anda menggunakan ektensi .png, dengan catatan semua file images harus sama, misalnya jika ingin file ektensi .png maka semua harus berektensi .png.
 - Untuk masalah logo bisa anda tumpuk file nya di **./images/sunblue/** (harus bernama logo dan ektensinya .png).
 - Sedangkan untuk file index.php, masuk ke cPanel atau server anda kemudian masuk ke ROOT-MYBB dan rename file index.php (default) jadi forums.php atau forum.php sesuka anda.
-- Upload file index.php (SunBlue) yang sudah saya sediakan.
-- Kalau ada bug silakan buat <a href="https://github.com/SunDi3yansyah/SunBlue/issues" target="_blank">issues</a> baru.
+- Upload file index.php yang sudah saya sediakan.
+- Kalau ada bug silakan buat [issues](https://github.com/SunDi3yansyah/SunBlue/issues) baru.
 - Silakan di kembangkan sendiri.
 
 ## Kontribusi:
