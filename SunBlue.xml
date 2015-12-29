@@ -523,7 +523,7 @@ section,summary{display:block;vertical-align:baseline}.entry-head{background-col
 </div>
 </div>
 </footer>]]></template>
-		<template name="postbit_online" version="1610"><![CDATA[<a href="online.php"><img src="{$theme['imglangdir']}/button-versi-kampoeng/buddy_online.gif" class="tooltip" title="{$lang->postbit_status_online}" alt="{$lang->postbit_status_online}" /></a>]]></template>
+		<template name="postbit_online" version="1610"><![CDATA[<a href="online.php"><img src="{$theme['imglangdir']}/button/buddy_online.gif" class="tooltip" title="{$lang->postbit_status_online}" alt="{$lang->postbit_status_online}" /></a>]]></template>
 		<template name="header_welcomeblock_member_admin" version="1609"><![CDATA[<li><a href="{$mybb->settings['bburl']}/{$config['admin_dir']}/index.php" class="admincp">» {$lang->welcome_admin}</a></li>]]></template>
 		<template name="nav" version="1608"><![CDATA[<ul class="navigation">
 {$nav}{$activesep}{$activebit}
@@ -2932,7 +2932,7 @@ countries.init()
 </body>
 </html>]]></template>
 		<template name="showthread_newthread" version="1608"><![CDATA[<a class="btn" href="newthread.php?fid={$fid}">{$lang->post_thread}</a>&nbsp;]]></template>
-		<template name="forumdisplay_newthread" version="1609"><![CDATA[<a href="newthread.php?fid={$fid}" class="kampoeng-tombol medium hijau"><img src="{$theme['imglangdir']}/button-versi-kampoeng/newthread.png">Create New Thread</a>]]></template>
+		<template name="forumdisplay_newthread" version="1609"><![CDATA[<a href="newthread.php?fid={$fid}" class="kampoeng-tombol medium hijau"><img src="{$theme['imglangdir']}/button/newthread.png">Create New Thread</a>]]></template>
 		<template name="headerinclude" version="1610"><![CDATA[<link rel="icon" type="image/png" href="{$theme['imgdir']}/favicon.png" />
 <link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
 <link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
@@ -3322,7 +3322,7 @@ if(use_xmlhttprequest == "1")
 </div>
 </body>
 </html>]]></template>
-		<template name="showthread_newreply" version="1609"><![CDATA[<a href="newreply.php?tid={$tid}" class="kampoeng-tombol medium hijau"><img src="{$theme['imglangdir']}/button-versi-kampoeng/newreply.png">Post Reply</a>&nbsp;]]></template>
+		<template name="showthread_newreply" version="1609"><![CDATA[<a href="newreply.php?tid={$tid}" class="kampoeng-tombol medium hijau"><img src="{$theme['imglangdir']}/button/newreply.png">Post Reply</a>&nbsp;]]></template>
 		<template name="forumbit_depth1_cat" version="1610"><![CDATA[<div id="forums" class="category" onload="javascript:$.noConflict(true);">
 <div class="expcolimage"><img src="{$theme['imgdir']}/{$expcolimage}" id="cat_{$forum['fid']}_img" class="expander" alt="{$expaltext}" title="{$expaltext}" /></div>
 <h2><a href="{$forum_url}">{$forum['name']}</a></h2>
@@ -3368,7 +3368,7 @@ if(use_xmlhttprequest == "1"){new PopupMenu("popup_subforum{$forum['fid']}");}
     new PopupMenu("rating");
 // -->
 </script>]]></template>
-		<template name="postbit_edit" version="1609"><![CDATA[<a href="editpost.php?pid={$post['pid']}" id="edit_post_{$post['pid']}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_edit.png">Edit</a>
+		<template name="postbit_edit" version="1609"><![CDATA[<a href="editpost.php?pid={$post['pid']}" id="edit_post_{$post['pid']}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button/postbit_edit.png">Edit</a>
 <div id="edit_post_{$post['pid']}_popup" class="popup_menu" style="display: none;"><div class="popup_item_container"><a href="javascript:;" onclick="Thread.quickEdit({$post['pid']});" class="popup_item">{$lang->postbit_quick_edit}</a></div><div class="popup_item_container"><a href="editpost.php?pid={$post['pid']}" class="popup_item">{$lang->postbit_full_edit}</a></div></div>
 <script type="text/javascript">
 // <!--
@@ -3378,18 +3378,18 @@ if(use_xmlhttprequest == "1"){new PopupMenu("popup_subforum{$forum['fid']}");}
 	}
 // -->
 </script>]]></template>
-		<template name="postbit_delete_pm" version="1609"><![CDATA[<a href="private.php?action=delete&amp;pmid={$id}&amp;my_post_key={$mybb->post_code}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button-versi-kampoeng/pm_delete.png">Delete</a>]]></template>
-		<template name="postbit_email" version="1610"><![CDATA[<a href="member.php?action=emailuser&amp;uid={$post['uid']}"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_email.gif" alt="{$lang->postbit_email}" class="tooltip" title="{$lang->postbit_email}"></a>]]></template>
-		<template name="postbit_find" version="1609"><![CDATA[<a href="search.php?action=finduser&amp;uid={$post['uid']}" class="tooltip" title="{$lang->postbit_find}><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_find.gif"></a>]]></template>
-		<template name="postbit_forward_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;pmid={$id}&amp;do=forward" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button-versi-kampoeng/pm_forward.png">Forward</a>]]></template>
-		<template name="postbit_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;uid={$post['uid']}" title="{$lang->postbit_pm}" class="tooltip"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_pm.gif"></a>]]></template>
-		<template name="postbit_quickdelete" version="1609"><![CDATA[<a href="editpost.php?pid={$post['pid']}" onclick="Thread.deletePost({$post['pid']}); return false;" style="display: none;" id="quick_delete_{$post['pid']}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_delete.png">Delete</a>
+		<template name="postbit_delete_pm" version="1609"><![CDATA[<a href="private.php?action=delete&amp;pmid={$id}&amp;my_post_key={$mybb->post_code}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button/pm_delete.png">Delete</a>]]></template>
+		<template name="postbit_email" version="1610"><![CDATA[<a href="member.php?action=emailuser&amp;uid={$post['uid']}"><img src="{$theme['imglangdir']}/button/postbit_email.gif" alt="{$lang->postbit_email}" class="tooltip" title="{$lang->postbit_email}"></a>]]></template>
+		<template name="postbit_find" version="1609"><![CDATA[<a href="search.php?action=finduser&amp;uid={$post['uid']}" class="tooltip" title="{$lang->postbit_find}><img src="{$theme['imglangdir']}/button/postbit_find.gif"></a>]]></template>
+		<template name="postbit_forward_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;pmid={$id}&amp;do=forward" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button/pm_forward.png">Forward</a>]]></template>
+		<template name="postbit_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;uid={$post['uid']}" title="{$lang->postbit_pm}" class="tooltip"><img src="{$theme['imglangdir']}/button/postbit_pm.gif"></a>]]></template>
+		<template name="postbit_quickdelete" version="1609"><![CDATA[<a href="editpost.php?pid={$post['pid']}" onclick="Thread.deletePost({$post['pid']}); return false;" style="display: none;" id="quick_delete_{$post['pid']}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button/postbit_delete.png">Delete</a>
 <script type="text/javascript">
 // <!--
 	$('quick_delete_{$post['pid']}').style.display = '';
 // -->
 </script>]]></template>
-		<template name="postbit_quote" version="1610"><![CDATA[<a href="newreply.php?tid={$tid}&amp;replyto={$post['pid']}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_quote.png">Quote</a>]]></template>
+		<template name="postbit_quote" version="1610"><![CDATA[<a href="newreply.php?tid={$tid}&amp;replyto={$post['pid']}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button/postbit_quote.png">Quote</a>]]></template>
 		<template name="postbit_author_user" version="1610"><![CDATA[<div class="user-info"><span style="width: 50px;display: inline-block;">User ID</span>: {$post['uid']}</div>
 <div class="user-info"><span style="width: 50px;display: inline-block;">Post</span>: {$post['postnum']}</div>
 <div class="user-info"><span style="width: 50px;display: inline-block;">Join</span>: {$post['userregdate']}</div>
@@ -3542,14 +3542,14 @@ if(use_xmlhttprequest == "1")
 	</td>
 </tr>
 </table>]]></template>
-		<template name="postbit_multiquote" version="1609"><![CDATA[<a href="javascript:Thread.multiQuote({$post['pid']});" style="display: none;" class="kampoeng-postbit postbit-small postbit-abu-abu" id="multiquote_link_{$post['pid']}"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_multiquote.gif" id="multiquote_{$post['pid']}" />Multi Quote</a>
+		<template name="postbit_multiquote" version="1609"><![CDATA[<a href="javascript:Thread.multiQuote({$post['pid']});" style="display: none;" class="kampoeng-postbit postbit-small postbit-abu-abu" id="multiquote_link_{$post['pid']}"><img src="{$theme['imglangdir']}/button/postbit_multiquote.gif" id="multiquote_{$post['pid']}" />Multi Quote</a>
 <script type="text/javascript">
 //<!--
 	$('multiquote_link_{$post['pid']}').style.display = '';
 // -->
 </script>]]></template>
-		<template name="postbit_rep_button" version="1609"><![CDATA[<a href="javascript:MyBB.reputation({$post['uid']},{$post['pid']});" title="{$lang->postbit_reputation_add}" class="tooltip"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_reputation.gif" /></a>]]></template>
-		<template name="postbit_report" version="1609"><![CDATA[<a href="javascript:Thread.reportPost({$post['pid']});"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_report.gif" alt="{$lang->postbit_report}" title="{$lang->postbit_report}" class="tooltip" /></a>]]></template>
+		<template name="postbit_rep_button" version="1609"><![CDATA[<a href="javascript:MyBB.reputation({$post['uid']},{$post['pid']});" title="{$lang->postbit_reputation_add}" class="tooltip"><img src="{$theme['imglangdir']}/button/postbit_reputation.gif" /></a>]]></template>
+		<template name="postbit_report" version="1609"><![CDATA[<a href="javascript:Thread.reportPost({$post['pid']});"><img src="{$theme['imglangdir']}/button/postbit_report.gif" alt="{$lang->postbit_report}" title="{$lang->postbit_report}" class="tooltip" /></a>]]></template>
 		<template name="postbit_posturl" version="1609"><![CDATA[<div style="width: auto; vertical-align: top; float:right;"><span class="smalltext"><strong>{$lang->postbit_post} <a href="{$post['postlink']}#pid{$post['pid']}">#{$postcounter}</a></strong>{$post['inlinecheck']}</span></div>]]></template>
 		<template name="forumdisplay_threadlist_inlineedit_js" version="1609"><![CDATA[<script type="text/javascript" src="jscripts/inline_edit.js?ver=1400"></script>
 <script type="text/javascript">
@@ -3685,12 +3685,12 @@ if(use_xmlhttprequest == "1")
 		<template name="forums_popular_thread" version="1610"><![CDATA[<a href="{$thread['threadlink']}">
 <p>{$thread['subject']}<span id="spanbox">({$numberbit} {$numbertype})</span></p>
 </a>]]></template>
-		<template name="postbit_offline" version="1609"><![CDATA[<img src="{$theme['imglangdir']}/button-versi-kampoeng/buddy_offline.gif" class="tooltip" title="{$lang->postbit_status_offline}" alt="{$lang->postbit_status_offline}" />]]></template>
-		<template name="postbit_reply_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;pmid={$id}&amp;do=reply" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button-versi-kampoeng/pm_reply.png">Reply</a>]]></template>
-		<template name="postbit_replyall_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;pmid={$id}&amp;do=replyall" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_replyall.png">Reply All</a>]]></template>
-		<template name="postbit_warn" version="1609"><![CDATA[<a href="warnings.php?action=warn&amp;uid={$post['uid']}&amp;pid={$post['pid']}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_warn.png">Warn</a>]]></template>
-		<template name="postbit_www" version="1609"><![CDATA[<a href="{$post['website']}" target="_blank" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button-versi-kampoeng/postbit_www.png">www</a>]]></template>
-		<template name="showthread_newreply_closed" version="1609"><![CDATA[<a href="newreply.php?tid={$tid}" class="kampoeng-tombol medium merah"><img src="{$theme['imglangdir']}/button-versi-kampoeng/closed.png">Closed</a>&nbsp;]]></template>
+		<template name="postbit_offline" version="1609"><![CDATA[<img src="{$theme['imglangdir']}/button/buddy_offline.gif" class="tooltip" title="{$lang->postbit_status_offline}" alt="{$lang->postbit_status_offline}" />]]></template>
+		<template name="postbit_reply_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;pmid={$id}&amp;do=reply" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button/pm_reply.png">Reply</a>]]></template>
+		<template name="postbit_replyall_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;pmid={$id}&amp;do=replyall" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button/postbit_replyall.png">Reply All</a>]]></template>
+		<template name="postbit_warn" version="1609"><![CDATA[<a href="warnings.php?action=warn&amp;uid={$post['uid']}&amp;pid={$post['pid']}" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button/postbit_warn.png">Warn</a>]]></template>
+		<template name="postbit_www" version="1609"><![CDATA[<a href="{$post['website']}" target="_blank" class="kampoeng-postbit postbit-small postbit-abu-abu"><img src="{$theme['imglangdir']}/button/postbit_www.png">www</a>]]></template>
+		<template name="showthread_newreply_closed" version="1609"><![CDATA[<a href="newreply.php?tid={$tid}" class="kampoeng-tombol medium merah"><img src="{$theme['imglangdir']}/button/closed.png">Closed</a>&nbsp;]]></template>
 		<template name="member_register" version="1609"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->registration}</title>
